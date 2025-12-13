@@ -13,7 +13,7 @@ noteMovie = float(input ("Digite a nota do filme:\n"))
 
 # print("Nome do filme:",name, "\nAno de lançamento:",yearLaunch,"\nDigite a nota do filme:",yearLaunch)
 
-# Alternativa do filme 3
+# Alternativa do film
 print(f"Digite o nome do filme:{name}\n"
       f"Digite o ano de lançamento:{yearLaunch}\n"
       f"Nota do filme:{noteMovie}\n"
