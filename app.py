@@ -1,4 +1,5 @@
-print('Hello wold!')
-idade = 25
-print(idade)
-print('Testando python')
+print('Olá mundo!')
+print('Primeiro passos no curso oline de Python')
+"""
+Python é muito divertido!
+"""
