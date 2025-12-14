@@ -12,3 +12,11 @@ print(movieName.find("u"))#Retorna a posição em binário
 print(movieName.find("o"))#Retorna a posição em binário
 print(movieName.replace("Top","matrix"))
 print(movieDescription.split(','))
+
+
+
+#1- Escreva um programa que lê dois nomes e retorne uma string
+#formatada no formato "ÙltimoNome,primeiroNome".
+#2-Inverta a ordem das palavras em uma string forneceida.
+#3-Verifique se uma string fornrcida é um ppolidromo(
+# que pode ser lida da mesma forma de trás para frente)
