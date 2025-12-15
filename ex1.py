@@ -15,8 +15,6 @@
 texto1 = "arara"
 texto2 = "ovo"
 
-
-
 #Remove espaço e deixa o nome em minúsculo
 format1 = texto1.lower().replace(" ","")
 format2 = texto2.lower().replace(" ","")
