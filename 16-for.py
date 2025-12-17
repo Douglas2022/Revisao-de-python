@@ -12,3 +12,9 @@ for movie in movieList:
     if movie == "Inception":
         break
     print(movie)
+
+#Quando a condição será atendida o loop vai para próxima interação
+for movie in movieList:
+    if movie == "Inception":
+        continue
+    print(movie)
