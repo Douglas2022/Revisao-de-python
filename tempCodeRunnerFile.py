@@ -1,1 +1,1 @@
-print(movieName[::2])
+print(len(movieList))
