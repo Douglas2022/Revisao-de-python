@@ -1,40 +1,52 @@
-#Listando valores de 0 a 10 que sejam menores do que 4.]
+#Nomes dos fimes
+# movieList = ["Titanic","Godfather","Inception","Jurassic park"]
+#Filmes que tem a letra ´e´ no titulo"
 # for i in range(10):
 #     if i < 4:
 #         print(i)
+# listNunber = [i for i in range(11) ]
+# print(listNunber)
 
-listNumber = [i for i in range(10) if i < 4]
-print(listNumber)
 
-#Filmes que possuem a letra "e" no titulo
-movieList = ["Titanic","Godfather","Inception","Jurassic park"]
-movieShow = [movie for movie in movieList if 'u'in movie.lower()]
-print(movieShow)
+movieList = [
+    "Titanic",
+    "Godfather",
+    "Inception",
+    "Jurassic park",
+    "Matrix",
+    "Interestelar",
+    "Titanic",
+    "Avatar",
+    "Rocky"
+]
+#Filmes que possuem a letra 'e' no titulo.
+moviesWithE = [movie for movie in movieList if "e" in movie.lower()]
+print(moviesWithE)
 #Filmes que assistir
-movieWhatch = [movie for movie in movieList if movie != "Jurassic park"]
-print(movieWhatch)
-#Encontrando um filme pelo nome
-
-movieList = ["Titanic", "Godfather", "Inception", "Jurassic park"]
-
+moviesWatch = [movie for movie in movieList if movie != "Jurassic Park"]
+print(moviesWatch)
+#Encontrando um filme pelo nome.
 while True:
-    seachName = input(
-        "Digite o nome do filme para buscar na lista (ou 'sair' para encerrar):\n"
-    )
-
+    seachName = input("Digite o nome do filme para buscar na lista (ou sair para encerrar!):\n")
     if seachName.lower() == "sair":
         print("Programa encerrado!")
         break
-
-    foundMovies = [
-        movie for movie in movieList
-        if seachName.lower() in movie.lower()
-    ]
-
+    
+    foundMovies = [movie for movie in movieList if seachName.lower() in movie.lower()]
     if foundMovies:
-        print(f"Filme(s) encontrado(s) com o nome '{seachName}':")
-        for movie in foundMovies:
-            print(movie)
-    else:
-        print(f"Nenhum filme foi encontrado com o nome '{seachName}'. Tente novamente!")
+        print(f"Fime(s) encontrado(s) com o nome: {seachName}")
+        for foundMovies in foundMovies:
+            print(foundMovies)
 
+    else:
+        print(f"Nenhum filme foi encontrado com o nome: -  {seachName}.Tente novamente! ")
+        
+
+
+
+
+
+
+
+
+ 
