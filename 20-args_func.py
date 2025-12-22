@@ -10,3 +10,10 @@ full_name("Eliana","Nunes")
 def sum_number(a,b):
     return a + b
 print(f"Soma é:{sum_number(10,50)}")
+
+#Função com o paranmetro default
+def address(country="Brasil"):
+    print(f"Eu moro em:{country}")
+
+address()
+address("Portugal")
