@@ -17,3 +17,25 @@ def address(country="Brasil"):
 
 address()
 address("Portugal")
+#Função para avaliar um filme ultilizando parametro
+def rate_movie(num_rattings,movieName):
+    total = 0
+    for i in range(num_rattings):
+        note = float(input("Digite a nota para o filme:\n"))
+        total += note
+
+
+    if num_rattings > 0:
+        avered = total /num_rattings
+    else:
+        avered = 0
+        
+
+    print(f"Média da avaliação do filme:{movieName} é: {avered: .2f}")
+
+    
+rate_movie(2,"Sonic")
+
+
+
+
