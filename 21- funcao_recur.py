@@ -12,3 +12,15 @@ def Fatorial(num):
         return num * Fatorial(num - 1)
 num = int(int(input("Digite o número para o fatorial:\n")))
 print(f"O fatorial de {num} é {Fatorial(num)}")
+
+# 1 - Soma total de um número:
+def total_sum(num):
+    if num == 1:
+        return 1
+    else:
+        return(num + total_sum(num - 1))
+    
+num = int(input("Digite o número para a soma:\n"))
+
+print(f"A soma total de {num} é {total_sum(num)}")
+    
