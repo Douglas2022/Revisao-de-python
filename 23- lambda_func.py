@@ -11,7 +11,12 @@
 # print(is_even(5))
 
 # Função que divide o número por outro
-div = lambda x,y: x/y
-print(div(10,2))
-print(div(9,2))
-print(div(5,5))
+# div = lambda x,y: x/y
+# print(div(10,2))
+# print(div(9,2))
+# print(div(5,5))
+
+# Função que inverte uma string
+reverse_string = lambda s: s[::-1]
+print(reverse_string("Douglas"))
+print(reverse_string("Mãe eu te amo, Eliane"))
