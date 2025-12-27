@@ -5,7 +5,13 @@
 # print(power(5))
 
 # Função se verifica se o número é par ou impa
-is_even = lambda x: x % 2 == 0;
-print(is_even(10))
-print(is_even(9))
-print(is_even(5))
+# is_even = lambda x: x % 2 == 0;
+# print(is_even(10))
+# print(is_even(9))
+# print(is_even(5))
+
+# Função que divide o número por outro
+div = lambda x,y: x/y
+print(div(10,2))
+print(div(9,2))
+print(div(5,5))
