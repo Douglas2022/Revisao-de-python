@@ -1,2 +1,10 @@
-listNunber = [i for i in range(11) ]
-# print(listNunber)
+# 1- Soma de números 
+# def sum (*num):
+#     sum_total = 0
+#     for n in num:
+#         sum_total += n
+#     print(f"Soma é de:{sum_total}")
+
+# sum(7)
+# sum(7,9)
+# sum(7,9,10,11)
